@@ -1,0 +1,280 @@
+/**************** general *************/
+
+.container {
+    max-width: 1024px;
+}
+p {
+    color: #9a9393;
+    font-size: 14px;
+}
+/****************  header *************/
+
+.header {
+    width: 100%;
+    background: #ffffff;
+    position: relative;
+    box-shadow: 0 1px 1px #000000;
+}
+.header-content {
+    padding: 2%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+#posts .row {
+    border-bottom: 2px solid #ccc;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    display: table;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+#posts .row:first-child {
+    padding-top: 0px;
+}
+.post-content {} .post-thumb {} .navbar-inverse {
+    background: #fff;
+    border: none;
+    padding: 0px;
+}
+.navbar-toggle {
+    background: #000;
+}
+.navbar {
+    margin: 0px;
+    min-height: 0px;
+}
+.navbar li {
+    min-width: 150px;
+}
+.logo {
+    padding-left: 0px;
+}
+.login {
+    padding-right: 0px;
+}
+.login-button {
+    text-align: center;
+    background: #e6c48f;
+    background-image: -webkit-linear-gradient(top, #e6c48f, #eb8638);
+    background-image: -moz-linear-gradient(top, #e6c48f, #eb8638);
+    background-image: -ms-linear-gradient(top, #e6c48f, #eb8638);
+    background-image: -o-linear-gradient(top, #e6c48f, #eb8638);
+    background-image: linear-gradient(to bottom, #e6c48f, #eb8638);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+    border: solid #fa7500 1px;
+    text-decoration: none;
+}
+.login-button:hover {
+    text-align: center;
+    background: #e6c48f;
+    background-image: -webkit-linear-gradient(top, #e6c48f, #eb8638);
+    background-image: -moz-linear-gradient(top, #e6c48f, #eb8638);
+    background-image: -ms-linear-gradient(top, #e6c48f, #eb8638);
+    background-image: -o-linear-gradient(top, #e6c48f, #eb8638);
+    background-image: linear-gradient(to bottom, #e6c48f, #eb8638);
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: Arial;
+    color: #cccccc;
+    font-size: 14px;
+    padding: 5px 20px 5px 20px;
+    border: solid #fa7500 1px;
+    text-decoration: none;
+}
+.gradient-bar {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6d6d6d+0,606060+100&0.65+0,1+100 */
+    
+    background: -moz-linear-gradient(top, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(top, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to bottom, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+   /* IE6-9 */
+    
+    height: 52px;
+}
+/********* page contents ***********/
+
+#page-section {
+    border-left: 2px solid #ccc;
+    border-right: 2px solid #ccc;
+    height: 100%;
+    min-height: 400px;
+}
+.siderbar-sec {
+    padding: 5%;
+}
+.read-more-links a {
+    font-size: 16px;
+    color: #f47521;
+    text-decoration: none;
+}
+#search-handle {
+    color: #fff;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6d6d6d+0,606060+100&0.65+0,1+100 */
+    
+    background: -moz-linear-gradient(top, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(top, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to bottom, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    /* IE6-9 */
+    
+    height: auto;
+}
+.latest-posts {
+    border: 1px solid #f47521;
+}
+.posts-title {
+    margin: 0px;
+}
+.posts-title a {
+    font-size: 16px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f47521;
+}
+.latest-posts-heading {
+    background: #f47521;
+    color: #ffffff;
+    padding: 10px 5px;
+}
+.latest-posts-heading h4 {
+    margin: 0px;
+}
+.latest-posts-heading a {
+    color: #fff;
+}
+.latest-posts-desc {
+    background: #f8f8f6;
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+}
+.latest-posts-desc:last-child {
+    border-bottom: none;
+}
+.latest-posts-title {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-bottom: 0px;
+}
+.latest-posts-title a {
+    font-size: 14px;
+    font-family: Helvetica, Arial, sans-serif;
+    color: #f47521;
+}
+.latest-posts-time {
+    color: #cccccc;
+    font-size: 12px;
+}
+#posts {
+    padding: 10px;
+}
+/********************** Footer  *********/
+
+#footer {
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#6d6d6d+0,606060+100&0.65+0,1+100 */
+    
+    background: -moz-linear-gradient(top, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* FF3.6-15 */
+    
+    background: -webkit-linear-gradient(top, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* Chrome10-25,Safari5.1-6 */
+    
+    background: linear-gradient(to bottom, rgba(109, 109, 109, 0.65) 0%, #606060 100%);
+    /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    
+    /* IE6-9 */
+    
+    height: 52px;
+    min-height: 200px;
+}
+.footer-content {
+    padding: 2%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+.footer-content .logo {
+    margin-bottom: 5px;
+}
+.footer-content .logo img {
+    width: 28%;
+    -webkit-filter: invert(100%);
+    filter: brightness(0) invert(1);
+}
+.location {
+    color: #ccc;
+}
+/* Sticky footer styles
+-------------------------------------------------- */
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+    /* Margin bottom by footer height */
+    
+    margin-bottom: 200px;
+}
+.footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    /* Set the fixed height of the footer here */
+    
+    height: 60px;
+    background-color: #f5f5f5;
+}
+/******* mobile *****/
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        float: right;
+        margin: 0;
+    }
+    .siderbar-sec {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width: 768px) {
+    .siderbar-sec {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
+@media (max-width: 480px) {
+    .logo img {
+        margin-top: 5%;
+    }
+    /* footer */
+    
+    .footer-content {
+        padding: 2%;
+    }
+    /* footer logo */
+    
+    .footer-content .logo img {
+        width: 35%;
+        -webkit-filter: invert(100%);
+        filter: brightness(0) invert(1);
+    }
+    .siderbar-sec {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+}
